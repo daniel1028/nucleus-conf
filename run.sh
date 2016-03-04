@@ -38,3 +38,5 @@
 
 ( nohup java -classpath /home/gooruapp/nucleus/deploy/conf:/home/gooruapp/nucleus/deploy/bin/nucleus-media-0.1-snapshot-fat.jar: -Dvertx.metrics.options.enabled=true -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory -Dlogback.configurationFile=/home/gooruapp/nucleus/deploy/conf/logback-media.xml  io.vertx.core.Launcher -conf /home/gooruapp/nucleus/deploy/conf/nucleus-media.json -cluster -cluster-host 10.198.56.137  >> startup.log 2>&1 ) &
 
+
+( nohup java -classpath /home/gooruapp/nucleus/deploy/conf:/home/gooruapp/nucleus/deploy/bin/nucleus-utils-0.1-snapshot-fat.jar: -Dvertx.metrics.options.enabled=true -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory -Dlogback.configurationFile=/home/gooruapp/nucleus/deploy/conf/logback-utils.xml  io.vertx.core.Launcher -conf /home/gooruapp/nucleus/deploy/conf/nucleus-utils.json -cluster -cluster-host 10.198.56.137  >> startup.log 2>&1 ) &
