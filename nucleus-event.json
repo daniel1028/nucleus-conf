@@ -18,5 +18,9 @@
 	"buffer.memory" : 33554432,
 	"topic" : "prodContentLog",
 	"testEnvironmentWithoutKafkaServer" : false
+  },
+  "emailSettings" : {
+    "api.host" : "nucleus.gooru.org",
+    "api.endpoint" : "/api/nucleus-utils/v1/emails"
   }
 }
