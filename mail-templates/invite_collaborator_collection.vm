@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+  </head>
+	
+  <body style = "margin: auto; font-family: 'Open Sans', sans-serif; font-size: 16px; color: #333333; line-height: 22px;">
+	<div style="width: 1200px;">
+	  <div style="background-image: url('http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Header.png'); height: 215px; position: relative;">
+		<div style="right:60px; bottom:38px; position: absolute;">
+			<img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Logo.png" height="70px" width="250px" />
+		</div>
+	  </div>
+	    <div style="margin-top: 50px; padding-left: 50px; padding-right: 50px;">
+		  <p style="margin-top: 20px;">Hello!</p>
+          <p style="margin-top: 20px;">${username} has invited you to collaborate on a Gooru collection!</p>
+          <div style="background: none repeat scroll 0 0 #0f76bb;	border: 0 none; color: white; font-size: 12px; min-height: 32px; width: 218px; border-radius: 3px 3px 3px 3px; line-height: 31px; text-align: center;">
+             <a style="color: #ffffff; text-decoration: none;" href="${base_url}/#mycollections&id=${collection_id}" target="_blank">
+               <span>Click here to start working together</span>
+             </a>
+          </div>
+	        
+		  <p style="margin-top: 20px;"><strong>What does it mean to be a collaborator?</strong><br>
+			${username} must think very highly of you because they&#39;ve invited you to work on their collection with them. Collaborators have permission to edit and add to a collection.</p>
+			
+		  <p style="margin-top: 15px; color: #666666;">If you have any questions, feel free to email us at <a href="mailto:support@gooru.org">support@gooru.org</a>.</p>
+    
+          <p style="margin-top: 20px;">
+              Thanks! <br> The Gooru Team
+		  </p>
+					
+		  <p style="margin-top: 20px; font-size: 11px;">This email was automatically generated. Please do not reply to this email address.</p>
+		</div>
+	
+		<div style="background-image: url('http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Footer.png'); height:90px; margin-top: 50px; text-align: center;">
+			<div style = "padding-top: 15px;">
+				<a href="#"><img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_FB.png" width="32px" height="32px"/></a>
+				<a href="#"><img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Twitter.png" width="32px" height="32px"/></a>
+			</div>
+			<div style = "padding-top: 5px;">
+				<a href="http://www.gooru.org" target="_blank"><img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_URL.png" width="120px" height="11px"></a>
+			</div>
+	    </div>
+	</div>
+  </body>
+</html>
