@@ -23,8 +23,8 @@
     "password": "[PASSWORD]"
   },
   "mail.sender.name": "gooru",
-  "mail.from.address": "noreply@goorulearning.org",
-  "mail.bcc.address": "noreply@goorulearning.org",
-  "mail.templates.path": "/opt/nucleus/mail-templates",
+  "mail.from.address": "noreply@gooru.org",
+  "mail.bcc.address": "noreply@gooru.org",
+  "mail.templates.path": "/opt/nucleus/conf/mail-templates",
   "mail.link.base.url" : "http://nucleus.gooru.org"
 }
