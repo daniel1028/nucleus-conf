@@ -4,12 +4,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
   </head>
 	
-  <body style = "margin: auto; font-family: 'Open Sans', sans-serif; font-size: 16px; color: #333333; line-height: 22px;">
+  <body style = "margin: auto; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333333; line-height: 22px;">
 	<div style="width: 1200px;">
-	  <div style="background-image: url('http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Header.png'); height: 215px; position: relative;">
-		<div style="right:60px; bottom:38px; position: absolute;">
-			<img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Logo.png" height="70px" width="250px" />
-		</div>
+	  <div style="background-image: url('http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Header.png'); height: 200px; position: relative;">
 	  </div>
 	    <div style="margin-top: 50px; padding-left: 50px; padding-right: 50px;">
           	<p style="margin-top: 20px;">Hello!</p>
@@ -24,13 +21,13 @@
 			<p style="margin-top: 20px; font-size: 11px;">This email was automatically generated. Please do not reply to this email address.</p>
 		</div>
 	
-		<div style="background-image: url('http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Footer.png'); height:90px; margin-top: 50px; text-align: center;">
+		<div style="background-image: url('http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Footer.png'); height:90px; margin-top: 50px; text-align: center;">
 			<div style = "padding-top: 15px;">
-				<a href="#"><img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_FB.png" width="32px" height="32px"/></a>
-				<a href="#"><img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_Twitter.png" width="32px" height="32px"/></a>
+				<a href="#"><img src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_FB.png" width="32px" height="32px"/></a>
+				<a href="#"><img src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Twitter.png" width="32px" height="32px"/></a>
 			</div>
 			<div style = "padding-top: 5px;">
-				<a href="http://www.gooru.org" target="_blank"><img src="http://nucleus.gooru.org/assets/Gooru_EmailTemplate16_URL.png" width="120px" height="11px"></a>
+				<a href="http://www.gooru.org" target="_blank"><img src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_URL.png" width="120px" height="11px"></a>
 			</div>
 	    </div>
 	</div>
