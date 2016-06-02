@@ -1,5 +1,9 @@
 {
   "comment": "This is bundled JSON file. Idea is that we should externalize this also as part of build. Currently this is going to hold the dev env information",
+  "redis.config" : {
+    "host" : "localhost",
+    "port" : 6379
+  },
   "defaultDataSource": {
         "cassandra.seeds":"127.0.0",
         "cassandra.cluster":"cluster",
