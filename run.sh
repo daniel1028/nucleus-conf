@@ -46,3 +46,12 @@
 ( nohup java -classpath /home/gooruapp/nucleus/deploy/conf:/home/gooruapp/nucleus/deploy/bin/nucleus-copier-0.1-snapshot-fat.jar: -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory -Dlogback.configurationFile=/home/gooruapp/nucleus/deploy/conf/logback-copier.xml  io.vertx.core.Launcher -conf /home/gooruapp/nucleus/deploy/conf/nucleus-copier.json -cluster -cluster-host 10.198.56.137  >> startup.log 2>&1 ) &
 
 ( nohup java -classpath /home/gooruapp/nucleus/deploy/conf:/home/gooruapp/nucleus/deploy/bin/nucleus-download-reports-0.1-snapshot-fat.jar: -Dvertx.metrics.options.enabled=true -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory io.vertx.core.Launcher -conf /home/gooruapp/nucleus/deploy/conf/nucleus-download-reports.json  >> startup.log 2>&1 ) &
+
+( nohup  java -classpath migration-scripts-fat.jar: org.gooru.migration.jobs.SyncTotalContentCounts >> startup.log 2>&1 ) &
+
+( nohup  java -classpath migration-scripts-fat.jar: org.gooru.migration.jobs.SyncClassMembers >> startup.log 2>&1 ) &
+
+( nohup  java -classpath migration-scripts-fat.jar: org.gooru.migration.jobs.SyncContentAuthorizedUsers >> startup.log 2>&1 ) &
+
+( nohup  java -classpath migration-scripts-fat.jar: org.gooru.migration.jobs.StatMetricsPublisher >> startup.log 2>&1 ) &
+
