@@ -1,4 +1,5 @@
-{"analytics.cassandra.seeds":"127.0.0.1",
+{
+"analytics.cassandra.seeds":"127.0.0.1",
 "analytics.cassandra.cluster":"cluster",
 "analytics.cassandra.datacenter":"datacenter",
 "analytics.cassandra.keyspace":"keyspace",
@@ -44,6 +45,11 @@
 
 "class.members.sync.delay":6000,
 "total.counts.sync.delay":6000,
-"content.authorizers.sync.delay":6000
+"content.authorizers.sync.delay":6000,
+
+"stat.publisher.worker.start":true,
+"sync.class.members.worker.start":true,
+"sync.content.authorized.users.worker.start":true,
+"sync.total.content.counts.worker.start":true
 }
 
