@@ -22,7 +22,7 @@
     "username": "[USERNAME]",
     "password": "[PASSWORD]"
   },
-  "mail.sender.name": "gooru",
+  "mail.sender.name": "Gooru",
   "mail.from.address": "noreply@gooru.org",
   "mail.bcc.address": "noreply@gooru.org",
   "mail.templates.path": "/opt/nucleus/conf/mail-templates",
