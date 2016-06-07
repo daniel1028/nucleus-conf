@@ -50,3 +50,6 @@
 
 ( nohup  java -classpath /home/gooruapp/nucleus/deploy/conf:/home/gooruapp/nucleus/deploy/bin/nucleus-analytics-jobs-fat.jar: org.gooru.analyics.jobs.infra.DeployJobs -conf /home/gooruapp/nucleus/deploy/conf/analytics-jobs-config.json >> startup.log 2>&1 ) &
 
+( nohup java -classpath /home/gooruapp/nucleus/deploy/conf:/home/gooruapp/nucleus/deploy/bin/nucleus-roster-0.1-snapshot-fat.jar: -Dvertx.metrics.options.enabled=true -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory -Dlogback.configurationFile=/home/gooruapp/nucleus/deploy/conf/logback-roster.xml  io.vertx.core.Launcher -conf /home/gooruapp/nucleus/deploy/conf/nucleus-roster.json  >> startup.log 2>&1 ) &
+
+
