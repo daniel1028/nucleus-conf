@@ -15,8 +15,7 @@
 				<div style="text-align: left; color: #656873; font-size: 14px; line-height: 21px; font-family: Avenir,sans-serif; max-width: 600px; min-width: 320px;">
 					<div style="margin-left: 20px; margin-right: 20px; margin-top: 20px;">
 						<p style="margin-top: 0px; margin-bottom: 0;">Hello!</p>
-						<p style="margin-top: 20px; margin-bottom: 0;">We&#39;re letting you know that the ${username} of the resource &quot;${resource_title}&quot; has deleted it from Gooru. You are currently using this resource in the below collections:</p>
-						<p style="margin-top: 20px; margin-bottom: 0;">${list_of_collections}</p>
+						<p style="margin-top: 20px; margin-bottom: 0;">We&#39;re letting you know that the ${username} of the resource &quot;${resource_title}&quot; has deleted it from Gooru. You are using this resource in one or more of your collections.</p>
 						<p style="margin-top: 20px; margin-bottom: 0;">Unfortunately, this means that this resource will no longer be available for you to use or for students in any of your classes to study.</p>
 						<p style="margin-top: 20px; margin-bottom: 0;">We apologize for any inconvenience! Try searching in Gooru&#39;s catalog to find a suitable replacement.</p>
 						<p style="margin-top: 20px; margin-bottom: 0; color: #666666;">If you have any questions, feel free to email us at <a href="mailto:support@gooru.org">support@gooru.org</a>.</p>
