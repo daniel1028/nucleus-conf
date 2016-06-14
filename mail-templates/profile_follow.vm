@@ -1,35 +1,43 @@
 <!DOCTYPE html> 
 <html>
-  <head>
+<head>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
-  </head>
-	
-  <body style = "margin: auto; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333333; line-height: 22px;">
+</head>
+
+<body style = "margin: auto; font-family: 'Open Sans', sans-serif; font-size: 14px; color: #333333; line-height: 22px;">
 	<div style="margin: 0 auto; display: table;">
-	  <div style="background-image: url('http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Header.png'); background-repeat:no-repeat; height: 200px; position: relative; width: 100%; background-size: contain;">
-	  </div>
-	    <div style="margin-top: 50px; padding-left: 50px; padding-right: 50px;">
-          	<p style="margin-top: 20px;">Hello!</p>
-            <p style="margin-top: 20px;">${follow_on_username} has started following your Gooru profile. This means that he or she can see the resources, lessons, and courses that you&#39;ve published in the library on your Gooru profile. Thanks for sharing!</p>
-			<p style="margin-top: 20px;">If you&#39;d like, you can also follow ${username} to keep up-to-date on what he or she has shared! <a href="${base_url}/profile/${user_id}/demographic">Click here to see the profile</a>.</p>
-	        <p style="margin-top: 15px; color: #666666;">If you have any questions, feel free to email us at <a href="mailto:support@gooru.org">support@gooru.org</a>.</p>
-    
-            <p style="margin-top: 20px;">
-              Thanks! <br> The Gooru Team
-		    </p>
-					
-			<p style="margin-top: 20px; font-size: 11px;">This email was automatically generated. Please do not reply to this email address.</p>
+		<div style="font-size:0px !important;line-height:0 !important;" align="center">
+			<img style="height: auto;width: 100%;border: 0;max-width: 600px;" src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Header_new.png" alt="" width="600">
+		</div>
+
+		<div style="margin: 0 auto; max-width: 600px; min-width: 320px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
+			<div style="border-collapse: collapse; display: table;background-color: #ffffff;">
+				<div style="text-align: left; color: #656873; font-size: 14px; line-height: 21px; font-family: Avenir,sans-serif; max-width: 600px; min-width: 320px;">
+					<div style="margin-left: 20px; margin-right: 20px; margin-top: 20px;">
+						<p style="margin-top: 0px;">Hello!</p>
+						<p style="margin-top: 20px; margin-bottom: 0;">${follow_on_username} has started following your Gooru profile. This means that he or she can see the resources, lessons, and courses that you&#39;ve published in the library on your Gooru profile. Thanks for sharing!</p>
+						<p style="margin-top: 20px; margin-bottom: 0;">If you&#39;d like, you can also follow ${username} to keep up-to-date on what he or she has shared! <a href="${base_url}/${username}">Click here to see the profile</a>.</p>
+						<p style="margin-top: 20px; margin-bottom: 0; color: #666666;">If you have any questions, feel free to email us at <a href="mailto:support@gooru.org">support@gooru.org</a>.</p>
+						<p style="margin-top: 20px; margin-bottom: 20px;">Thanks! <br> The Gooru Team</p>
+					</div>
+
+					<div style="margin-left: 20px; margin-right: 20px;">
+						<p style="margin-top: 0; margin-bottom: 0; font-size: 11px;">This email was automatically generated. Please do not reply to this email address.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	
-		<div style="background-image: url('http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Footer.png'); height:90px; margin-top: 50px; text-align: center;">
-			<div style = "padding-top: 15px;">
+		<div style="background-image: url('http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Footer.png'); height:80px; margin-top: 30px; text-align: center;">
+			<div style = "padding-top: 10px;">
 				<a href="https://www.facebook.com/gooru" target="_blank"><img src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_FB.png" width="32px" height="32px"/></a>
 				<a href="https://www.twitter.com/gooru" target="_blank"><img src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_Twitter.png" width="32px" height="32px"/></a>
 			</div>
+			
 			<div style = "padding-top: 5px;">
 				<a href="http://www.gooru.org" target="_blank"><img src="http://d1n2b9zfqpew39.cloudfront.net/Gooru_EmailTemplate16_URL.png" width="120px" height="11px"></a>
 			</div>
-	    </div>
+		</div>
 	</div>
-  </body>
+</body>
 </html>

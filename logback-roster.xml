@@ -8,9 +8,9 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>nucleusanalytics-jobs.log</file>
+        <file>nucleus-roster.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>nucleus-analytics-jobs.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>nucleus-roster.%d{yyyy-MM-dd}.log</fileNamePattern>
             <!-- keep 30 days' worth of history -->
             <maxHistory>30</maxHistory>
         </rollingPolicy>
@@ -20,10 +20,10 @@
         </encoder>
     </appender>
 
-    <logger name="org.gooru.migration" level="debug" additivity="false"></logger>
+    <logger name="org.gooru.nucleus.roster" level="debug" additivity="false"></logger>
 
 
     <root level="info">
-        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
     </root>
 </configuration>

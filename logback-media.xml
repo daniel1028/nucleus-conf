@@ -33,7 +33,7 @@
         </encoder>
     </appender>
 
-    <logger name="org.gooru.media" level="debug">
+    <logger name="org.gooru.media" level="debug" additivity="false">
             <appender-ref ref="FILE"/>
     </logger>
 

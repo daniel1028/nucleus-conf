@@ -20,7 +20,7 @@
         </encoder>
     </appender>
 
-    <logger name="org.gooru.nucleus" level="debug"></logger>
+    <logger name="org.gooru.nucleus" level="debug" additivity="false"></logger>
 
 
     <root level="info">

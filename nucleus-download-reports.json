@@ -16,6 +16,14 @@
     "config": {
         "insights.file.real.path":"path"
   }},
+"org.gooru.nucleus.reports.infra.download.verticles.FileExpireVerticle": {
+    "instances": 1,
+    "worker": false,
+    "config": {
+        "insights.file.real.path":"path",
+        "job.interval":86400000,
+        "file.delete.days":30
+  }},
   "org.gooru.nucleus.reports.infra.download.verticles.HttpVerticle": {
     "instances": 1,
     "worker": false,

@@ -20,7 +20,7 @@
         </encoder>
     </appender>
 
-    <logger name="org.gooru.auth" level="debug">
+    <logger name="org.gooru.auth" level="debug" additivity="false">
             <appender-ref ref="FILE"/>
     </logger>
 </configuration>
