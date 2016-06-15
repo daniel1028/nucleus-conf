@@ -16,7 +16,7 @@
 					<div style="margin-left: 20px; margin-right: 20px; margin-top: 20px;">
 						<p style="margin-top: 0px;">Hello!</p>
 						<p style="margin-top: 20px; margin-bottom: 0;">${username} has started following your Gooru profile. This means that he or she can see the resources, lessons, and courses that you&#39;ve published in the library on your Gooru profile. Thanks for sharing!</p>
-						<p style="margin-top: 20px; margin-bottom: 0;">If you&#39;d like, you can also follow ${follow_on_username} to keep up-to-date on what he or she has shared! <a href="${base_url}/${follow_on_username}">Click here to see the profile</a>.</p>
+						<p style="margin-top: 20px; margin-bottom: 0;">If you&#39;d like, you can also follow ${username} to keep up-to-date on what he or she has shared! <a href="${base_url}/${username}">Click here to see the profile</a>.</p>
 						<p style="margin-top: 20px; margin-bottom: 0; color: #666666;">If you have any questions, feel free to email us at <a href="mailto:support@gooru.org">support@gooru.org</a>.</p>
 						<p style="margin-top: 20px; margin-bottom: 20px;">Thanks! <br> The Gooru Team</p>
 					</div>
