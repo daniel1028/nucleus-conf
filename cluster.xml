@@ -7,6 +7,16 @@
         <property name="hazelcast.memcache.enabled">false</property>
         <property name="hazelcast.rest.enabled">false</property>
         <property name="hazelcast.logging.type">slf4j</property>
+        <property name="hazelcast.merge.first.run.delay.seconds">180</property>
+        <property name="hazelcast.wait.seconds.before.join">10</property>
+        <property name="hazelcast.heartbeat.interval.seconds">3</property>
+        <property name="hazelcast.version.check.enabled">false</property>
+        <property name="hazelcast.map.cleanup.delay.seconds">3</property>
+        <property name="hazelcast.executor.query.thread.count">4</property>
+        <property name="hazelcast.executor.event.thread.count">8</property>
+        <property name="hazelcast.executor.migration.thread.count">8</property>
+        <property name="hazelcast.executor.client.thread.count">16</property>
+        <property name="hazelcast.executor.store.thread.count">8</property>
     </properties>
 
 

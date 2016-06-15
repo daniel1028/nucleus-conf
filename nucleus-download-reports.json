@@ -11,13 +11,13 @@
         "cassandra.keyspace":"keyspace"
   },
 "org.gooru.nucleus.reports.infra.download.verticles.DownloadReportVerticle": {
-    "instances": 1,
+    "instances": 2,
     "worker": false,
     "config": {
         "insights.file.real.path":"path"
   }},
   "org.gooru.nucleus.reports.infra.download.verticles.HttpVerticle": {
-    "instances": 1,
+    "instances": 2,
     "worker": false,
     "config": {
       "http.port": 8081,
@@ -28,7 +28,7 @@
     }
   },
 "org.gooru.nucleus.reports.infra.download.verticles.AuthVerticle": {
-    "instances": 1,
+    "instances": 2,
     "worker": false,
     "config": {
   }},
