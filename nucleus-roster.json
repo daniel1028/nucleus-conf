@@ -44,7 +44,7 @@
     "config": {
       "http.port": 8080,
       "metrics.periodicity.seconds": 300,
-      "message.bus.send.timeout.seconds": 10,
+      "message.bus.send.timeout.seconds": 30,
       "request.body.size.max.mb": 5
     }
   },
